@@ -19,9 +19,9 @@ Create a working directory (e.g., work) and clone the following repositories.
 * OpenSSL and libgmp-dev are available via apt-get (or other similar commands).
 
 # Installation
-cd secure-innerproduct
-cd src
-make
+      cd secure-innerproduct
+      cd src
+      make
 
 * use tcmalloc (optimal) for Linux; sudo apt-get install libgoogle-perftools-dev
 
