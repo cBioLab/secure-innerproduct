@@ -1,3 +1,4 @@
+/* comm.h: copy from iskana/PBWT-sec */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

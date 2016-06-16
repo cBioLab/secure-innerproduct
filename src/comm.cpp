@@ -1,4 +1,5 @@
 #include "comm.h"
+/* comm.cpp: copy from iskana/PBWT-sec */
 
 int prepSSock(int port, int max_con, int aflg, char* addr){
 	int sock0;
@@ -212,7 +213,6 @@ int recvFile(int sock, char* file){
 	fclose(fp);
 	return(oflen);
 }
-
 
 #ifdef DEBUG_MAIN
 int main(int argc,char **argv)
