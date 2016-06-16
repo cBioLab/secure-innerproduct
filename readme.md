@@ -23,12 +23,23 @@ Create a working directory (e.g., work) and clone the following repositories.
       mkdir bin
       cd src
       make
+      
+* Before compiling inner_client.cpp, please replace "localhost" of the following line at by your server's hostname.
+ std::string hostname = "localhost";
 
 * use tcmalloc (optimal) for Linux; sudo apt-get install libgoogle-perftools-dev
 
 # Usage
-    cd secure-innerproduct/bin
+    server side:
+    cd secure-innerproduct
+    mkdir comm/server
+    cd bin
     inner_server "database_file"
+    
+    client side:
+    cd secure-innerproduct
+    mkdir comm/client
+    cd bin
     inner_client "query_file"
 
 # File format
