@@ -1,6 +1,6 @@
-# **secure-innerproduct**
+# **Secure-innerproduct**
 
-C++ implementation of computing inner product between a server and a client based on additively homomorphic encryption
+C++ implementation of computing inner product between a server's bit vector and a client's bit vector based on additively homomorphic encryption
 
 # Installation Requirements
 
@@ -29,7 +29,7 @@ Create a working directory (e.g., work) and clone the following repositories.
 
 # Copyright Notice
 
-Copyright (C) 2016, Hiroki Sudo, Masanobu Jimbo
+Copyright (C) 2016, Hiroki Sudo, Masanobu Jimbo, 
 All rights reserved.
 
 # License
