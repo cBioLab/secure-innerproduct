@@ -20,15 +20,16 @@ Create a working directory (e.g., work) and clone the following repositories.
 
 # Installation
       cd secure-innerproduct
+      mkdir bin
       cd src
       make
 
 * use tcmalloc (optimal) for Linux; sudo apt-get install libgoogle-perftools-dev
 
 # Usage
-inner_server "database_file"
-
-inner_client "query_file"
+    cd secure-innerproduct/bin
+    inner_server "database_file"
+    inner_client "query_file"
 
 # File format
 
