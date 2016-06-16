@@ -20,7 +20,7 @@ Create a working directory (e.g., work) and clone the following repositories.
 
 # Installation
       cd secure-innerproduct
-      mkdir bin
+      mkdir bin comm comm/client comm/server
       cd src
       make
 
