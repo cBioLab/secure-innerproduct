@@ -24,7 +24,7 @@ Create a working directory (e.g., work) and clone the following repositories.
       cd src
       make
       
-* Before compiling inner_client.cpp, please replace "localhost" of the following line at by your server's hostname.
+* Before compiling inner_client.cpp, please replace "localhost" of the following line by your server's hostname.
  
  std::string hostname = "localhost";
 
