@@ -13,13 +13,13 @@ clean:
 .SUFFIXES: .cpp
 
 .cpp.o:
-	$(CXX) -c $< -o $@ $(CFLAGS) -fopenmp
+	$(CXX) -c $< -o $@ $(CFLAGS)
 
 server: $(SERVER_OBJS)
-	$(CXX) $(SERVER_OBJS) -o $@ $(LDFLAGS) -fopenmp
+	$(CXX) $(SERVER_OBJS) -o $@ $(LDFLAGS)
 	mv server $(TOPDIR)../bin/
 
 client: $(CLIENT_OBJS)
-	$(CXX) $(CLIENT_OBJS) -o $@ $(LDFLAGS) -fopenmp
+	$(CXX) $(CLIENT_OBJS) -o $@ $(LDFLAGS)
 	mv client $(TOPDIR)../bin/
 
