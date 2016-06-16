@@ -25,6 +25,7 @@ Create a working directory (e.g., work) and clone the following repositories.
       make
       
 * Before compiling inner_client.cpp, please replace "localhost" of the following line at by your server's hostname.
+ 
  std::string hostname = "localhost";
 
 * use tcmalloc (optimal) for Linux; sudo apt-get install libgoogle-perftools-dev
